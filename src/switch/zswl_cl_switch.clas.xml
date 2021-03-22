@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Switch Framework</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GC_USER_NAME</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>R/2 table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GC_USER_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>R/2 table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Liefert eine Instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Liefert eine Instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GET_SWITCH_STATE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Check state for current switch option</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GET_SWITCH_STATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check state for current switch option</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GT_CRITERIA</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Switch Framework: Active Objects</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GT_CRITERIA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Switch Framework: Active Objects</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GV_IPNUM</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Implementation number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GV_IPNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Implementation number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GV_LGNUM</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SWITCH</CLSNAME>
+     <CMPNAME>GV_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

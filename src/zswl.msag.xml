@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Swisslog messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Start process to send a HU from the empty bin stacker to the WC.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Problems while creating bin object for the LGPLA [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Trigger the process to fill the EBS with Boxes from the AutoStore</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Create dummy HU for moving a box from the EBS to the WC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Dummy HU [&amp;1] successfully created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>HU-WT [&amp;1] for Dummy HU [&amp;2] to bin [&amp;3] created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Move HU [&amp;1] from the EBS to the transfer bin [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enough empty HU&apos;s on workcenter [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Start process to send a HU from AS to the empty bin stacker.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Wrong HU Type [&amp;1]. Type is not maintained in the Customizing.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_WS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Workstation messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2&amp; &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Lock the workstation [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Failed to lock the workstation [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Workstation [&amp;1] sucessfully locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Workstation [&amp;1] activated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Workstation [&amp;1] deactivated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Mode changed to [&amp;1] at workstation [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Workstation data sucessfully updated on DB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Unlock the workstation [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Failed to unlock the workstation [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Workstation [&amp;1] sucessfully unlocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Workstation [&amp;1] is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Status changed to [&amp;1] at workstation [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Workstation already in use!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Reject Dialog &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Workstation [&amp;1] has Status [&amp;2]. Close the dialog.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

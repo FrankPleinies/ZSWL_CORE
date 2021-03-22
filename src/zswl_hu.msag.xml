@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_HU</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Handling unit messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No IDART were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>HU-IDENT entry for HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; exist already!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>New HUIDENT &apos;&amp;&apos; for HU&apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Update of the HU-IDENT für HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Update the HU-IDENT for HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; successful!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>HU-IDENT entry for HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; not yet exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>New HU-IDENT entry for HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Insert in HU-IDENT for HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Insert in HU-IDENT for HU &apos;&amp;/&amp;&apos; with IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; successful!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No HU identifications were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error while selecting HU&apos;s</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No HU&apos;s found for selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>HU [&amp;1] exist already - HU creation is not possible!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No goods movement logs found for HU [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No description found for HU-Type [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>HU [&amp;1] were not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Failed to reread the HU-attribute for HU [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>HU [&amp;1] should be created with packaging material [&amp;2] on bin [&amp;3]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Error while creating the HU!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Delete HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Failed to delete the HU [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>HU [&amp;1] successfully deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Header data for HU [&amp;1] couldn&apos;t be changed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>No Source HU&apos;s were consigned for repacking to HU [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Failed to initialize the pack object with the workstation [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Failed to initialize the pack object with warehouse process typ [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Pack object were not initialized!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>HU [&amp;1] were successfully packed onto HU [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Failed to pack the HU [&amp;1] onto HU [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>No HU will be packed onto HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Failed to read the stock for repacking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>No free stock found for repacking to HU [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>No target storage bin were consigned for repacking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>HU [&amp;1] doesn&apos;t exist in the HU hierarchy for repack the stock!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>No stock were found for repacking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Save HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Failed to save the HU!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Lock HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>HU [&amp;1] couldn&apos;t be locked!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>HU [&amp;1] successfully locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Unlock HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>HU [&amp;1] successfully unlocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Process step for HU [&amp;1] couldn&apos;t be closed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>&gt;&gt;&gt; Quantity change</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Consigned HU position doesn&apos;t fit to the HU hierarchy! HU not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>HU positon not found for update!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Quantity of the HU position was not changed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Change the quantity of product [&amp;1] from [&amp;2] to [&amp;3 [&amp;4]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Pack object couldn&apos;t be initialized!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Error during the initialisation of the pack object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Warehouse task [&amp;1] created! HU/Source/Target [&amp;2]/[&amp;3]/[&amp;4]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No HU-WT-attributes found for lgnum [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>HU-WT-Attributes determined for lgnum [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>No active profiles found for lgnum [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Active profiles for lgnum [&amp;1] determined]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>No Product-WT-attributes found for lgnum [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Product-WT-Attributes exist for lgnum [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Active product-WT-attributes dtermined for lgnum [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>&gt;&gt;&gt;&gt; Verarbeitung zu Profil/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Vehicles were triggered!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>HU [&amp;1] should be created with packaging material [&amp;2] on ressource [&amp;3]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Profilname/Lagerprozessart/Vonlagertyp/Nachlagertyp [&amp;]/[&amp;]/[&amp;]/[&amp;]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Profile name / description [&amp;1]/[&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Configuration for Warehouse no./Profile [&amp;1]/[&amp;2] is inconsistent!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>HU-WT [&amp;1] for HU [&amp;2] determined!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Product warehouse task [&amp;1] for HU [&amp;2] determined!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>HU [&amp;1] for further processing determined!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>For HU [&amp;1] exists [&amp;2] HU-WT&apos;s!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>For HU [&amp;1] exists [&amp;2] Product-WT&apos;s!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>HU-WT should be created for HU [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Amount of HU-WT&apos;s were not limited for the target!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Amount of HU-Wt&apos;s for target [&amp;1] are limited!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Open HU-WT´s for target [&amp;1]: [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Max. amount: [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Max. amount noch yet reached! WT [&amp;1] will be used!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Max.amount reached! WT [&amp;1] won&apos;t be used!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>WT [&amp;1] will be used!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Work-Struktur erstellt zu Profil/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>&lt;&lt;&lt;&lt; Verarbeitung zu Profil/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Limited to profile name [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>No HU-WT&apos;s must be created!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>SM12 lock already set. Argument [&amp;1] lock user [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>SM12 lock set. Argument [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>SM12 lock reseted. Argument [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Error while repacking stock in HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>HU [&amp;1] doesn&apos;t exist in the HU hierarchy!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>&gt;&gt; Delete packed stock for HU [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>[&amp;1] isn&apos;t a valid AS Bin ID.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>&gt;&gt; Post stock category [&amp;1] for whole stock in HU [&amp;2]</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_HU</ARBGB>
+     <STEXT>Handling unit messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Es wurde keine IDART mitgegeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>HU-IDENT Eintrag für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; schon vorhanden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Neue HUIDENT &apos;&amp;&apos; für HU&apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Update der HU-IDENT für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; gescheitert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Update der HU-IDENT für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; erfolgreich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>HU-IDENT Eintrag für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; noch nicht vorhanden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Neuer HU-IDENT Eintrag für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Insert in HU-IDENT für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; gescheitert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Insert in HU-IDENT für HU &apos;&amp;/&amp;&apos; mit IDART &apos;&amp;&apos; HUIDENT &apos;&amp;&apos; erfolgreich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Es wurde keine HU-Identifikation übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler bei der Selektion der Handling Units</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Zur Selektion wurden keine HUs gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>HU [&amp;] existiert bereits - HU kann nicht erstellt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Zu HU [&amp;] wurde kein Warenbewegungslog gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Zu HU-Typ [&amp;] wurde keine Beschreibung gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>HU [&amp;] wurde nicht gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>HU-Attribute zu HU [&amp;] konnte nicht erneut gelesen werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>HU [&amp;] soll mit Packmittel [&amp;] auf Lagerplatz [&amp;] erstellt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Fehler beim Erstellen der HU!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Lösche HU [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>HU [&amp;] konnte nicht gelöscht werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>HU [&amp;] erfolgreich gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Kopfdaten für HU [&amp;] konnten nicht geändert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Es wurden keine Von-HU(s) zum Umpacken nach HU [&amp;] mitgegeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Pack-Objekt konnte nicht mit Arbeitsplatz [&amp;] initialisiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Pack-Objekt konnte nicht mit Lagerprozessart [&amp;] initialisiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Pack-Objekt wurde nicht initialisiert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>HU [&amp;] wurde erfolgreich auf HU [&amp;] gepackt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>HU [&amp;] konnte nicht auf HU [&amp;] gepackt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Keine HU wird auf HU [&amp;] gepackt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Bestand zum Umpacken konnte nicht gelesen werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Kein freier Bestand zum Umpacken auf HU [&amp;] gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Für das Umpacken wurde kein Nach-Lagerplatz übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>HU [&amp;] für Umpacken von Bestand ist nicht in der HU-Hierarchie!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Es wurde kein Bestand zum Umpacken gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>HU [&amp;] speichern</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>HU konnte nicht gespeichert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Sperre HU [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>HU [&amp;] konnte nicht gesperrt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>HU [&amp;] erfolgreich gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Entsperre HU [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>HU [&amp;] erfolgreich entsperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Prozessschritt für HU [&amp;] konnte nicht abgeschlossen werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>&gt;&gt;&gt; Mengenänderung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Übergebene HU-Position passt nicht zur HU-Hierarchie! HU nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>HU-Position zum Ändern wurde nicht gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Menge für die HU-Position hat sich nicht verändert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Ändere Menge von Produkt [&amp;] von [&amp;] auf [&amp;] [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Pack-Objekt konnte nicht initialisiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Fehler beim Initialisieren des Pack-Objekts</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] angelegt! HU/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Zur Lagernummer [&amp;] existieren keine HU-LB-Eigenschaften!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>HU-LB-Eigenschaften zur Lagernummer [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Zur Lagernummer [&amp;] existieren keine aktiven Profile!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Aktive Profile zur Lagernummer [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Zur Lagernummer [&amp;] existieren keine Produkt-LB-Eigenschaften!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Zur Lagernummer [&amp;] existieren Produkt-LB-Eigenschaften!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Aktive Produkt-LB-Eigenschaften zur Lagernummer [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>&gt;&gt;&gt;&gt; Verarbeitung zu Profil/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Fahrzeuge wurden getriggert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>HU [&amp;] soll mit Packmittel [&amp;] auf Ressource [&amp;] erstellt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Profilname/Lagerprozessart/Vonlagertyp/Nachlagertyp [&amp;]/[&amp;]/[&amp;]/[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Profilname/Beschreibung [&amp;]/[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Konfiguration zu Lagernummer/Profil [&amp;]/[&amp;] ist inkonsistent!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>HU-Lageraufgabe [&amp;] zu HU [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Produkt-Lageraufgabe [&amp;] zu HU [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>HU [&amp;] für weitere Verarbeitung ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Zur HU [&amp;] existieren [&amp;] HU-LB&apos;s!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Zur HU [&amp;] existieren [&amp;] Produkt-LB&apos;s!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>HU-LB zur HU [&amp;] soll erstellt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Anzahl HU-LB&apos;s zum Ziel ist nicht beschränkt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Anzahl HU-LB&apos;s zum Ziel [&amp;] ist beschränkt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Offene HU-LB&apos;s zum Ziel [&amp;]: [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Maximale Anzahl: [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Maximale Anzahl noch nicht erreicht! LB [&amp;] wird verwendet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Maximale Anzahl erreicht! LB [&amp;] wird nicht verwendet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>LB [&amp;] wird verwendet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Work-Struktur erstellt zu Profil/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>&lt;&lt;&lt;&lt; Verarbeitung zu Profil/Quelle/Ziel [&amp;]/[&amp;]/[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Eingeschränkt auf Profilname [&amp;]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Es müssen keine HU-LB&apos;s angelegt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>SM12 Sperre bereits gesetzt. Argument [&amp;] Sperruser [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>SM12 Sperre gesetzt. Argument [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>SM12 Sperre zurückgesetzt. Argument [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Fehler beim Umpacken des Bestands in HU [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>HU [&amp;] ist in der HU-Hierarchie nicht vorhanden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>&gt;&gt; Lösche gepackten Bestand für HU [&amp;]</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

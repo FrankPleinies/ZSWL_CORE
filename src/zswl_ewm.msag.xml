@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_EWM</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>WH messages</STEXT>
+   </T100A>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_EWM</ARBGB>
+     <STEXT>WH messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Business-System [&amp;1] aus Logischem System [&amp;2] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler bei der Ermittlung des Business-System aus Logischem System [&amp;1]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Supply-Chain-Unit(SCU) [&amp;1] für Lagernummer [&amp;2] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der Supply-Chain-Unit(SCU) für Lagernummer [&amp;]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Verfügungsberechtigten [&amp;1] für Lagernummer [&amp;2] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler bei der Ermittlung des Verfügungsberechtigten für Lagernummer [&amp;]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Supply-Chain-Unit(SCU) [&amp;1] für Lagernummer [&amp;2] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der Supply-Chain-Unit(SCU) für Lagernummer [&amp;]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Eigentümer [&amp;1] für Lagernummer [&amp;2] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Fehler bei der Ermittlung des Eigentümer für Lagernummer [&amp;1]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Lagernummer [&amp;1] aus Business System [&amp;2] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der Lagernummer aus Business-System [&amp;1]!</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

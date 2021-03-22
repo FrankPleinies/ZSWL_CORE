@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CORE: Switch Framework</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>CHECK_ACTIVATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check the activation criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>EXECUTE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute Activation Check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Data for supplied criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>MC_FSLASH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>MV_FORMNAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of the Subroutine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>MV_KEY_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Key Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_C1_SWITCH_FW</CLSNAME>
+     <CMPNAME>MV_PROGRAMM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program Name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_BIN</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Storage bin messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No storage type transfered!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Storage type [&amp;1] not found in warehouse [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Description for Storge type [&amp;1] not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No storage type control found for [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No storage type sequence found for [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No storage type sequence found for [&amp;1] and HU Type [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No storage bin types found for selection in warehouse [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No storage bin type transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No storage bin type found for [&amp;1] and warehouse [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No search order found for storage bin type [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No user status were transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Internal user status couldn&apos;t be determined for [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error while building puffer for status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No storage bin were transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No storage bin found for selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Inventory lock for bin [&amp;1] set</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Inventory lock for bin [&amp;1] canceled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Error while setting the inventory lock for bin [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Outbound lock for bin [&amp;1] set</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Outbound lock for bin [&amp;1] canceled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error while setting the outbound lock for bin [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Inbound lock for bin [&amp;1] set</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Inbound lock for bin [&amp;1] canceled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error while setting the inbound lock for bin [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Storage bin [&amp;1] not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Activity area for bin [&amp;1] not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Error while reading status for bin [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>No storage bin were transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Selection of storage bins</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Delete empty storage bin from the result table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Storage bin [&amp;1] found</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_BIN</ARBGB>
+     <STEXT>Storage bin messages</STEXT>
+    </T100T>
+   </T100T>
+  </asx:values>
+ </asx:abap>
+</abapGit>

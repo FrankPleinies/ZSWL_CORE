@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Packaging material object</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZSWL_PRODUCT</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>GET_INSTANCE_BY_MATID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Return pack material instance for HU Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>GET_INSTANCE_BY_MATID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return pack material instance for HU Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>GET_INSTANCE_TO_HUTYP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Return pack material instance for HU Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>GET_INSTANCE_TO_HUTYP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return pack material instance for HU Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>GET_MATPACK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Return MATPACK data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>GET_MATPACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return MATPACK data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>SELECT_MATPACK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select the pack material data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>SELECT_MATPACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select the pack material data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>SELECT_MATPACK_BY_HUTYP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select pack material data for HU type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>SELECT_MATPACK_BY_HUTYP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select pack material data for HU type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>SELECT_MATPACK_BY_MATID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select pack material data for HU type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_PACK_MAT</CLSNAME>
+     <CMPNAME>SELECT_MATPACK_BY_MATID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select pack material data for HU type</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

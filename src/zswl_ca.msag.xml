@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_CA</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>General messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_CA</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>No warehouse no. were transfered!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_CA</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>No Key Field was supplied.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_CA</ARBGB>
+     <MSGNR>389</MSGNR>
+     <TEXT>Invalid parameter value for [&amp;1].</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_CA</ARBGB>
+     <MSGNR>390</MSGNR>
+     <TEXT>Empty resultset for [&amp;1].</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_CA</ARBGB>
+     <STEXT>General messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>&gt;&gt;Daten Commited (Dauer: &apos;&amp;&apos;s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Bitte Parameter ID &amp;1 &amp;2 pflegen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Es wurde keine HU-Identifikation übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Es wurde keine Lagernummer übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Es wurde kein Nachlagerplatz übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Es wurde keine Lagerprozessart übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Beginn der Lageraufgaben-Erstellung für HU &apos;&amp;&apos; zum Lagerplatz &apos;&amp;&apos;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Ende der Lageraufgaben-Erstellung für HU &apos;&amp;&apos; zum Lagerplatz &apos;&amp;&apos;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Fehler bei der Erstellung der Lageraufgabe für HU &apos;&amp;&apos; zum Platz &apos;&amp;&apos;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Die Lageraufgabe für HU &apos;&amp;&apos; zum Platz &apos;&amp;&apos; wurde korrekt erstellt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Ermittlung der offenen Lageraufgaben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der offenen Lageraufgaben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Es wurde keine Lageraufgabe übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Fehler bei der Lageraufgaben-Stornierung!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Die Lageraufgaben-Stornierung war erfolgreich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Die Lageraufgabe &apos;&amp;&apos; der HU &apos;&amp;&apos; soll quittiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Fehler bei der Quittierung der Lageraufgabe &apos;&amp;&apos; der HU &apos;&amp;&apos;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Die Lageraufgabe &apos;&amp;&apos; der HU &apos;&amp;&apos; wurde erfolgreich quittiert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>&gt;&gt;&gt; COMMIT</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>&gt;&gt;&gt; ROLLBACK</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Es wurde keine DOCID übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Es wurde keine DOCCAT übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der DOCNO zur DOCID &apos;&amp;&apos; / DOCCAT &apos;&amp;&apos;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Es muss eine DOCNO mit DOCCAT übergeben worden sein!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Die DOCID konnte zur DOCNO &apos;&amp;&apos; / DOCCAT &apos;&amp;&apos; nicht ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Es wurde keine Belegidentifikation (DOCID oder DOCNO) angegeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Es wurde keine ITMNO übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Die ITMID konnte zur DOCNO &apos;&amp;&apos; ITMNO &apos;&amp;&apos; / DOCCAT &apos;&amp;&apos; nicht ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Fehler bei der Ermittlung der ITMID zur DOCID &apos;&amp;&apos;, ITMID &apos;&amp;&apos;/ DOCCAT &apos;&amp;&apos;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Es wurde keine ITMNID übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Es wurde keine Lagernummer angegeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Zur Lagernummer &apos;&amp;&apos; ist keine GUID vorhanden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Es wurde kein Material übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Es konnte keine Material-ID zum Material &amp; ermittelt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Es wurde keine Partner-ID übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Zur Partner-ID &apos;&amp;&apos; konnte kein Partner ermittelt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Es wurde keine Partner-NO übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Zur Partner-NO &apos;&amp;&apos; konnte kein Partner-ID ermittelt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Die Menge &apos;&amp;&apos; konnte nicht von der Einheit &apos;&amp;&apos; in &apos;&amp;&apos; umgewandelt werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Es wurde keine Von-Menge übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Es wurde keine Von-Einheit übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>PPF-Aktion konnte nicht gefunden werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>160</MSGNR>
+     <TEXT>Lagernummer [&amp;1] ist nicht vorhanden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>200</MSGNR>
+     <TEXT>Keine Key Feld wurde eingegeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>250</MSGNR>
+     <TEXT>Fehler in Klasse [&amp;] Methode [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>350</MSGNR>
+     <TEXT>Konfiguration zu BAPI_ID [&amp;] LGNUM [&amp;] fehlt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>351</MSGNR>
+     <TEXT>Parameter-Konfiguration zu BAPI_ID [&amp;] LGNUM [&amp;] fehlt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>352</MSGNR>
+     <TEXT>Übertragung zur BAPI_ID [&amp;] wurde erfolgreich abgeschlossen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>353</MSGNR>
+     <TEXT>Übertragung zur BAPI_ID [&amp;] wurde mit Fehler abgebrochen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>354</MSGNR>
+     <TEXT>Es existieren keine Daten zu BAPI_ID [&amp;] LGNUM [&amp;]!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>355</MSGNR>
+     <TEXT>Parameterwert [&amp;] zu Parameter [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>356</MSGNR>
+     <TEXT>Parameter [&amp;] wurde nicht übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>357</MSGNR>
+     <TEXT>Konfiguration zu BAPI_ID [&amp;] LGNUM [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>358</MSGNR>
+     <TEXT>Parameter-Konfiguration zu BAPI_ID [&amp;] LGNUM [&amp;] ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>359</MSGNR>
+     <TEXT>Daten zu BAPI_ID [&amp;] LGNUM [&amp;] wurden ermittelt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>360</MSGNR>
+     <TEXT>Parameterwert zu Parameter [&amp;] wurde nicht übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>361</MSGNR>
+     <TEXT>Parameter [&amp;] wurde übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>383</MSGNR>
+     <TEXT>Status wird geändert von [&amp;] nach [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>384</MSGNR>
+     <TEXT>Eintrag wurde bereits prozessiert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>385</MSGNR>
+     <TEXT>Eintrag wurde bereits verarbeitet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>386</MSGNR>
+     <TEXT>Eintrag wurde noch nicht verarbeitet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>387</MSGNR>
+     <TEXT>Anzahl abgeschlossener Einträge [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>388</MSGNR>
+     <TEXT>Anzahl gelöschter Einträge [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>389</MSGNR>
+     <TEXT>Parameterwert für [&amp;1] ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>390</MSGNR>
+     <TEXT>Leere Ergebnismenge für [&amp;1].</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>997</MSGNR>
+     <TEXT>Sie haben keine Berechtigung!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>998</MSGNR>
+     <TEXT>Fehler! Siehe SLG1 Objekt[&amp;] Unterobj.[&amp;] Ext.[&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>999</MSGNR>
+     <TEXT>Aktion wurde erfolgreich ausgeführt!</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

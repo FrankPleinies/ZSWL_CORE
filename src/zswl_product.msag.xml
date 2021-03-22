@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_PRODUCT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Product messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Conversion failed from MATID R 16 to MATNR C40!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Conversion failed from MATNR C40 to MATID C22!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Conversion failed from MATID C22 to MATNR C40!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Conversion failed from MATNR C40 to MATID R16!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No Material-Number/-ID transfered!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No short text found for Material [&amp;1] with language [&amp;2]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No data could be selected for material [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No warehouse product exist for MatID: [&amp;1]; SCU-GUID [&amp;2]; Entitled [&amp;3]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No packaging material found for HU-Type [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No packaging material found for material ID [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No HU-Type was consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Packaging material [&amp;1] for HU-Type [&amp;2] determinded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No packaging material informations found for material [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Alternative material number [&amp;1] doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Product [&amp;1] doesn&apos;t exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Product [&amp;1] doesn&apos;t belong to Source-HU [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>No material ID were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Packaging material [&amp;1] for material ID [&amp;2] determind</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>EAN [&amp;1] not found</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_PRODUCT</ARBGB>
+     <STEXT>Product messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Konvertierung von MATID R16 zu MATNR C40 fehlgeschlagen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Konvertierung von MATNR C40 zu MATID C22 fehlgeschlagen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Konvertierung von MATID C22 zu MATNR C40 fehlgeschlagen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konvertierung von MATNR C40 zu MATID R16 fehlgeschlagen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Es wurde keine Material-Nummer/-ID übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Zu Material [&amp;] konnte kein Kurztext in der Sprache [&amp;] gefunden werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Zu Material [&amp;] konnten keine Materialdaten selektiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Zu MatID: [&amp;]; SCU-GUID [&amp;]; Entitled [&amp;] existiert keine Lagersicht!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Zu HU-Typ [&amp;] wurde kein Pack-Material gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Zu Material ID [&amp;] wurde kein Pack-Material gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Es wurde kein HU-Typ übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Pack-Material [&amp;] zu HU-Typ [&amp;] ermittelt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Zu Material [&amp;] wurden keine Packmaterial-Informationen gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Alternative Materialnummer [&amp;1] existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Produkt &amp;1 existiert nicht!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Produkt &amp;1 gehört nicht zur Quell-HU &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Es wurde keine Material ID übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Pack-Material [1] zu Material ID [2] ermittelt</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

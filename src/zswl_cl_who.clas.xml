@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSWL_CL_WHO</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Warehouse order object</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZSWL_WHO</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_WHO</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor (gets warehouse order structure)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_WHO</CLSNAME>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return the warehouse order data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_WHO</CLSNAME>
+     <CMPNAME>GET_OPEN_WTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets open warehouse tasks accorindg warehouse order number.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_WHO</CLSNAME>
+     <CMPNAME>GET_PICK_WTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return all open and confirmed warehouse tasks</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_WHO</CLSNAME>
+     <CMPNAME>HOLD_UNHOLD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Hold or unhold the warehouse order</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSWL_CL_SERVICES_EWM</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>General EWM service class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZSWL_EWM</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SERVICES_EWM</CLSNAME>
+     <CMPNAME>GET_BUSSYS_BY_LOGSYS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get business system by logical system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SERVICES_EWM</CLSNAME>
+     <CMPNAME>GET_ENTITLED_AND_SCU_BY_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get entitled by lgnum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SERVICES_EWM</CLSNAME>
+     <CMPNAME>GET_LGNUM_BY_BUSSYS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get lgnum by business system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SERVICES_EWM</CLSNAME>
+     <CMPNAME>GET_OWNER_AND_SCU_BY_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get the owner by lgnum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_SERVICES_EWM</CLSNAME>
+     <CMPNAME>IS_LGNUM_EXISTING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>check, if lgnum is valid</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

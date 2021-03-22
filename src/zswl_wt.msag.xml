@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_WT</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Warehouse task messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Cancel warehouse task [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No warehouse tasks were consigned for the cancelation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Warehouse task couldn&apos;t be canceled!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Warehouse task were canceled successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Confirm warehouse task [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No warehouse task werde consigned to the confirmation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Warehouse tasks couldn&apos;t be confirmed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Warehouse tasks were confirmed successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No HU&apos;s were consigned to the WT-Selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No open warehouse tasks were found for the HU&apos;s!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No open warehouse tasks found for the target data!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No open warehouse tasks found for the source data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No warehouse orders were consigned for the WT-Selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No open warehouse tasks were found for the warehouse oders!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No wave data were consigned for the WT-Selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>No open warehouse tasks were found fo the waves!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>No delivery references consigned for the WT-Selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>No open warehouse tasks found for the delivery references!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>No location data were found for the WT-Selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>No warehouse process type was consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>No business context found for transport type [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid parameter for read/create a warehouse task!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Warehouse task [&amp;1] is not open!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Warehouse task [&amp;1] is not canceled!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No open warehouse task found for [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>No warehouse task found for [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Create warehouse task</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>No consigned data found for create a warehouse task!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Warehouse task creation failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Changing not possible because the warehouse task [&amp;1] is no longer open!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Change the warehouse task [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Failed to change the warehouse task [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Warehouse task [&amp;1] successfully changed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Failed to write the changes into the DB!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Confirmation failed because the warehouse task [&amp;1] is no longer open!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Failed to confirm the warehouse task [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Warehouse task [&amp;1] successfully confirmed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>No open warehouse tasks found for the cancelation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Cancel warehouse task [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Failed to cancel the warehouse task [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Warehouse task [&amp;1] successfully canceled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>No exception code were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>No target for the changes consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>No data consigned for change the source data!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Create HU-WT for HU [&amp;1] with WPT [&amp;2] and target [&amp;3]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Queuename [&amp;1] exists already in SMQ2 and will be added again!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>WT [&amp;] is moving in AutoStore grid already. Cannot be deleted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>No open warehouse task found for HU &amp;1 and destination &amp;2.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_WT</ARBGB>
+     <STEXT>Warehouse task messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Storniere Lageraufgabe [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Es wurden keine Lageraufgaben für die Stornierung übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Lageraufgaben konnte nicht storniert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Lageraufgaben wurden erfolgreich storniert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Quittiere Lageraufgabe [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Es wurden keine Lageraufgaben für die Quittierung übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Lageraufgaben konnte nicht quittiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Lageraufgaben wurden erfolgreich quittiert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Es wurden keine HUs für die LB-Selektion übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Zu den HUs wurden keine offene Lageraufgaben gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Zu den Zieldaten wurden keine offene Lageraufgaben gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Zu den Vondaten wurden keine offene Lageraufgaben gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Es wurden keine Lageraufträge für die LB-Selektion übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Zu den Lageraufträgen konnten keine offene Lageraufgaben gefunden werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Es wurden keine Wellendaten für die LB-Selektion übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Zu den Wellen konnten keine offene Lageraufgaben gefunden werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Es wurden keine Lieferreferenzen für die LB-Selektion übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Zu Lieferreferenzen kontnen keine offene Lageraufgaben gefunden werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Für die LB-Selektion wurden keine Lokationsdaten übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Es wurde keine Lagerprozessart übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Zu Transportart [&amp;] wurde kein Business-Kontext gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Ungültige Parameter zum Lesen/Erstellen einer Lageraufgabe!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] ist nicht offen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] is nicht quittiert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Zu [&amp;] wurde keine offene Lageraufgabe gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Zu [&amp;] wurde keine Lageraufgabe gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Erstelle Lageraufgabe</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Es wurden keine Übergabeparameter für das Erstellen gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Lageraufgabenerstellung fehlgeschlagen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] ist nicht offen - Änderung nicht möglich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Ändere Lageraufgabe [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] konnte nicht geändert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] erfolgreich geändert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Änderung konnte nicht auf die DB geschrieben werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] ist nicht offen - Quittierung nicht möglich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] konnte nicht quittiert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] erfolgreich quittiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Keine offene Lageraufgabe zum Stornieren gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Storniere Lageraufgabe [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] konnte nicht storniert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] erfolgreich storniert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Es wurde kein Ausnahmecode übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Es wurde kein Ziel für Zieldatenänderung übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Es wurden keine Daten für die Änderung der Von-Daten übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Erstelle HU-LB für HU [&amp;] mit LPA [&amp;] und Ziel [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Queuename [&amp;] bereits in SMQ2 vorhanden und wird erneut hinzugefügt!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] ist bereits im AS Grid unterwegs. Löschen ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Keine offen Lageraufgabe für HU &amp;1 mit dem Ziel &amp;2 gefunden.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_STOCK</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Stock messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No parameter consigned for stock select!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No stock found for parent [&amp;1] and stock [&amp;2]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No available stock found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No stock found for selection!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error while creation the goods movement</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No available stock found for parent [&amp;1] and stock [&amp;2]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No stock attributes found for parent [&amp;1] and stock [&amp;2]!</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_STOCK</ARBGB>
+     <STEXT>Stock messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Es wurden keine Parameter zum Selektieren von Bestand übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Zu Parent [&amp;] und Bestand [&amp;] wurde kein Bestand gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Kein verfügbarer Bestand gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Zur Selektion wurde kein Bestand gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler beim Erzeugen der Warenbewegung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Zu Parent [&amp;] und Bestand [&amp;] wurde kein verfügbarer Bestand gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Zu Parent [&amp;] und Bestand [&amp;] wurden keine Bestandsattribute gefunden!</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

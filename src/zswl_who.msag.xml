@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSWL_WHO</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Warehouse order messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No warehouse order were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Warehouse order [&amp;1] were not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No possible ressource types found for the warehouse order [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No HU assignment found for warehouse order [&amp;1]!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Change the queue of the warehouse oder [&amp;1] to [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No queue were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Failed to change the queue!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Queue successfully changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Split warehouse order [&amp;1]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No warehouse tasks were consigned for the warehouse order split!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Chip the warehouse task [&amp;1] from the warehouse order</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Failed to chipped the warehouse tasks</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Warehouse tasks successfully chipped</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Warehouse order [&amp;1] was created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Change priority for warehouse order [&amp;1] to [&amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No priority were consigned!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>No warehouse orders found for update in the RF-Area!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>WHO-update successfully executed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Priority already set - no update required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Determine warehouse orders</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>No warehouse orders found for the conditions!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>[&amp;1] warehouse orders found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Hold or Unhold the WHO [&amp;1]</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZSWL_WHO</ARBGB>
+     <STEXT>Warehouse order messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Es wurde kein Lagerauftrag übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Lagerauftrag [&amp;] wurde nicht gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Zu Lagerauftrag [&amp;] wurden keine möglichen Ressourcentypen gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Zu Lagerauftrag [&amp;] wurde keine HU-Zuordnung gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Ändere Queue von Lagerauftrag [&amp;] zu [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Es wurde keine Queue übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Queue konnte nicht geändert werden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Queue erfolgreich geändert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Split des Lagerauftrags [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Für Lagerauftragssplit wurden keine Lageraufgaben übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Lageraufgabe [&amp;] von Lagerauftrag absplitten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Lageraufgaben konnten nicht abgesplittet werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Lageraufgaben erfolgreich abgesplittet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Lagerauftrag [&amp;] wurde erstellt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Ändere Priorität für Lagerauftrag [&amp;] zu [&amp;]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Es wurde keine Priorität übergeben!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Keine Lageraufträge im RF-Umfeld zum Ändern gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>LA-Update erfolgreich ausgeführt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Kein Update erforderlich - Priorität bereits gesetzt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Ermittlung der Lageraufträge</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Zu den Bedingungen wurden keine Lageraufträge gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>&apos;&amp;&apos; Lageraufträge gefunden</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

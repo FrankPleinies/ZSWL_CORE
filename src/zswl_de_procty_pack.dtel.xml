@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSWL_DE_PROCTY_PACK</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/SCWM/DO_PROCTY</DOMNAME>
+    <MEMORYID>/SCWM/PRT</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Warehouse Process Type for PACK</DDTEXT>
+    <REPTEXT>WPT Pack</REPTEXT>
+    <SCRTEXT_S>WPT Pack</SCRTEXT_S>
+    <SCRTEXT_M>WPT Pack</SCRTEXT_M>
+    <SCRTEXT_L>WPT Pack</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Warehouse Process Type for PACK</DDTEXT>
+     <REPTEXT>WPT Pack</REPTEXT>
+     <SCRTEXT_S>WPT Pack</SCRTEXT_S>
+     <SCRTEXT_M>WPT Pack</SCRTEXT_M>
+     <SCRTEXT_L>WPT Pack</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

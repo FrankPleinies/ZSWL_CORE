@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Abstract object</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>COMMIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit auf DB ausführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>COMMIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Commit auf DB ausführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konstruktor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Konstruktor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>GET_LOG_MESSAGES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt die Log Nachrichten zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>GET_LOG_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gibt die Log Nachrichten zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>GET_LOG_OBJECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt das Log Objekt zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>GET_LOG_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gibt das Log Objekt zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>HANDLE_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehlerbehandlung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>HANDLE_ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fehlerbehandlung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>M_LGNUM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lagernummer/Lagerkomplex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>M_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lagernummer/Lagerkomplex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>ROLLBACK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rollback auf DB ausführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSWL_CL_OBJECT</CLSNAME>
+     <CMPNAME>ROLLBACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Rollback auf DB ausführen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
